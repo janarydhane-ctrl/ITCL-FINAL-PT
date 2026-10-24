@@ -82,7 +82,8 @@ document.addEventListener("DOMContentLoaded", function () {
             );
             return;
         }
-
+        
+        //Javascript to googlesheets
         const scriptURL = "https://script.google.com/macros/s/AKfycbw1Ec7FB1QLzoRPncmJeRStI6g5qnb0OhslpGgeB3mUUUMekR-KHdPuHv_ynpsRxKE/exec"
 
         fetch(scriptURL, {
@@ -117,6 +118,36 @@ document.addEventListener("DOMContentLoaded", function () {
         charCount.textContent = "0 / 500 characters";
         charCount.style.color = "gray";
 
+    });
+
+    const answer10 = document.getElementById("answer10");
+const answer11 = document.getElementById("answer11");
+const answer12 = document.getElementById("answer12");
+
+const quizResult = document.getElementById("quiz-result");
+
+function checkAnswer(answer) {
+
+    if (answer === 11) {
+        quizResult.textContent = "Correct! A football team has 11 players.";
+        quizResult.style.color = "aquamarine";
+    } else {
+        quizResult.textContent = "Wrong answer! Try again.";
+        quizResult.style.color = "red";
+    }
+
+}
+
+    answer10.addEventListener("click", function () {
+        checkAnswer(10);
+    });
+
+    answer11.addEventListener("click", function () {
+        checkAnswer(11);
+    });
+
+    answer12.addEventListener("click", function () {
+        checkAnswer(12);
     });
 
 });
