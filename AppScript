@@ -17,6 +17,6 @@ function doPost(e) {
     ]);
 
     return ContentService
-      .createTextOutput("Your form has been saved successfully.")D
+      .createTextOutput("Your form has been saved successfully.")
       .setMimeType(ContentService.MimeType.TEXT);
 }
