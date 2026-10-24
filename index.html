@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,7 +19,8 @@
     <a href="#how-to-play">How to Play</a> |
     <a href="#positions">Positions</a> |
     <a href="#rules">Rules</a> |
-    <a href="#competitions">Competitions</a>
+    <a href="#competitions">Competitions</a> |
+    <a href="#contact">Contact</a>
   </nav>
 
   <hr>
@@ -63,12 +65,16 @@
 
     <section id="positions">
       <h2>Player Positions</h2>
+
       <h3>Goalkeeper</h3>
       <p>Stops shots and protects the goal.</p>
+
       <h3>Defenders</h3>
       <p>Stop the other team from attacking.</p>
+
       <h3>Midfielders</h3>
       <p>Connect defense and attack, and control the game.</p>
+
       <h3>Forwards</h3>
       <p>Their main job is to score goals.</p>
     </section>
@@ -87,13 +93,83 @@
 
     <section id="competitions">
       <h2>Famous Competitions</h2>
+
       <h3>FIFA World Cup</h3>
       <p>The biggest tournament, held every 4 years between national teams.</p>
+
       <h3>UEFA Champions League</h3>
       <p>The top club competition in Europe.</p>
+
       <h3>Premier League</h3>
       <p>England's top league, watched around the world.</p>
     </section>
+
+    <hr>
+
+    <!-- CONTACT FORM -->
+    <section id="contact">
+
+      <h2>Contact Us</h2>
+
+      <p>Have any questions about football? Send us a message!</p>
+
+      <form id="contactForm" novalidate>
+
+        <label for="firstname">First Name:</label><br>
+        <input
+          type="text"
+          id="firstname"
+          name="firstname"
+          placeholder="Enter your first name"
+          required
+        >
+
+        <br><br>
+
+        <label for="lastname">Last Name:</label><br>
+        <input
+          type="text"
+          id="lastname"
+          name="lastname"
+          placeholder="Enter your last name"
+          required
+        >
+
+        <br><br>
+
+        <label for="email">Email:</label><br>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter your email"
+          required
+        >
+
+        <br><br>
+
+        <label for="message">Contact Message:</label><br>
+        <textarea
+          id="message"
+          name="message"
+          rows="5"
+          cols="40"
+          maxlength="500"
+          placeholder="Write your message here..."
+          required
+        ></textarea>
+
+        <p id="charCount">0 / 500 characters</p>
+
+        <button type="submit">Send</button>
+
+        <!-- JavaScript feedback appears here -->
+        <p id="feedback" role="status" aria-live="polite"></p>
+
+      </form>
+
+    </section>
+
   </main>
 
   <hr>
@@ -101,6 +177,9 @@
   <footer>
     <p>Made for football fans.</p>
   </footer>
+
+  <!-- JAVASCRIPT CONNECTION -->
+  <script src="script.js"></script>
 
 </body>
 </html>
