@@ -174,6 +174,7 @@ header {
 
 .p-nav:hover {
     transform: scale(1.05);
+    cursor: pointer;
 }
 
     /* about football */
@@ -494,6 +495,12 @@ ul, ol {
     border-radius: 12px;
     overflow: hidden;
     border: 3px solid rgb(1, 102, 68);
+    cursor: pointer;
+}
+
+.competition-card a {
+    color: inherit;
+    text-decoration: none;
 }
 
 .competition-img {
@@ -531,8 +538,179 @@ ul, ol {
     line-height: 1.5;
 }
 
-footer {
+    /* contact*/
+
+#contact {
     background-color: rgb(0, 25, 12);
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.contact-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 25px;
+    width: 85%;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.quiz-and-img {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border: .5px dotted aquamarine;
+    background-color: rgba(14, 186, 14, 0.17);
+    padding: 15px;
+}
+
+.quiz-img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.quiz {
+    background-color: rgb(0, 40, 22);
+    color: white;
+    border-radius: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.quiz h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 25px;
+    color: rgb(0, 249, 220);
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.quiz p {
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.quiz button {
+    display: block;
+    width: 100%;
+    background-color: rgb(1, 102, 68);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.quiz button:hover {
+    background-color: rgb(0, 249, 220);
+    color: black;
+}
+
+#quiz-result {
+    font-size: 14px;
+}
+
+.contact-form {
+    width: 65%;
+    border: .5px dotted aquamarine;
+    background-color: rgba(14, 186, 14, 0.17);
+    color: white;
+    border-radius: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+
+.contact-form h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+
+.contact-form p {
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 12px;
+}
+
+#contactForm label {
+    display: block;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+#contactForm input {
+    width: 100%;
+    height: 35px;
+    background-color: white;
+    color: black;
+    border: 1px solid rgb(1, 102, 68);
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+#contactForm textarea {
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    color: black;
+    border: 1px solid rgb(1, 102, 68);
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+#contactForm button {
+    background-color: rgb(0, 249, 220);
+    color: black;
+    border: none;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+#contactForm button:hover {
+    background-color: rgb(29, 255, 112);
+}
+
+#charCount {
+    font-size: 12px;
+    color: lightgray;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+#feedback {
+    font-size: 14px;
+}
+
+footer {
+    background-color: rgb(0, 105, 51);
     color: aquamarine;
     font-weight: bold;
     padding: 25px 5%;
@@ -865,4 +1043,27 @@ footer p {
     font-size: 18px;
     letter-spacing: 5px;
 }
+
+#contact {
+    padding: 30px 5%;
+}
+
+.contact-container {
+    flex-direction: column;
+    gap: 20px;
+}
+
+.quiz-and-img {
+    width: 100%;
+}
+
+.contact-form {
+width: 100%;
+padding: 20px;
+}
+
+.quiz {
+    padding: 15px;
+}
+
 }
