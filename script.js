@@ -1,4 +1,3 @@
-
 document.addEventListener("DOMContentLoaded", function () {
 
     // Get contact form elements
@@ -84,6 +83,19 @@ document.addEventListener("DOMContentLoaded", function () {
             return;
         }
 
+        const scriptURL = "https://script.google.com/macros/s/AKfycbw1Ec7FB1QLzoRPncmJeRStI6g5qnb0OhslpGgeB3mUUUMekR-KHdPuHv_ynpsRxKE/exec"
+
+        fetch(scriptURL, {
+            method: "POST",
+            mode: "no-cors",
+            body: new URLSearchParams({
+                firstname: fname,
+                lastname: lname,
+                email: userEmail,
+                message: userMessage
+            })
+        });
+
         // Successful validation
         showFeedback(
             "Thank you, " + fname + " " + lname +
@@ -108,4 +120,3 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
 });
-
