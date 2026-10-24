@@ -1,0 +1,22 @@
+function doPost(e) {
+    const sheet = SpreadsheetApp
+      .getActiveSpreadsheet()
+      .getSheetByName("Contact-Form");
+
+    const firstName = e.parameter.firstname;
+    const lastName = e.parameter.lastname;
+    const email = e.parameter.email;
+    const message = e.parameter.message;
+
+    sheet.appendRow([
+      new Date(),
+      firstName,
+      lastName,
+      email,
+      message,
+    ]);
+
+    return ContentService
+      .createTextOutput("Your form has been saved successfully.")D
+      .setMimeType(ContentService.MimeType.TEXT);
+}
