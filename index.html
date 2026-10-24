@@ -4,83 +4,139 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
   <title>Intro to Football</title>
+
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 <body>
 
-  <header>
-    <h1>Welcome to Football</h1>
-    <p>The world's most popular sport, explained simply.</p>
+  <header id="header">
+    <h1>
+      <i class="fa-solid fa-futbol"></i>
+      Welcome to Football</h1>
+      <img src="image/element1.png" alt="element-img" class="element1">
   </header>
 
-  <nav>
-    <a href="#about">About</a> |
-    <a href="#history">History</a> |
-    <a href="#how-to-play">How to Play</a> |
-    <a href="#positions">Positions</a> |
-    <a href="#rules">Rules</a> |
-    <a href="#competitions">Competitions</a> |
-    <a href="#contact">Contact</a>
-  </nav>
+    <img src="image/soccer.png" alt="soccer-img" class="soccer-img">
+    <p class="sub-text">The world's most popular sport, explained simply.</p>
 
-  <hr>
+  <section class="nav-section">
+  <div class="nav-heading">
+  <h3 class="explore">EXPLORE</h3>
+  <h2 class="dive-game">DIVE INTO THE GAME</h2>
+  </div>
+
+  <div class=nav-div>
+  <nav>
+    <a href="#about" class="p-nav">
+        <img src="image/about.png" alt="about-football" class="card-img">
+        <span>ABOUT</span>
+    </a>
+    <a href="#history" class="p-nav">
+      <img src="image/history.png" alt="history-football" class="card-img">
+      <span>HISTORY</span>
+    </a> 
+    <a href="#how-to-play" class="p-nav">
+      <img src="image/howtoplay.png" alt="how-to-play-football" class="card-img">
+      <span>HOW TO PLAY</span>
+    </a> 
+    <a href="#positions" class="p-nav">
+      <img src="image/positions.png" alt="positions-football" class="card-img">
+      <span>POSITIONS</span>
+    </a>
+    <a href="#rules" class="p-nav">
+    <img src="image/rules.png" alt="rules-football" class="card-img">
+    <span>RULES</span>
+    </a>
+    <a href="#competitions" class="p-nav">
+      <img src="image/competitions.png" alt="competitions-football" class="card-img">
+      <span>COMPETITIONS</span>
+    </a>
+  </nav>
+  </div>
+  </section>
 
   <main>
     <section id="about">
-      <h2>What is Football?</h2>
-      <p>
+      <div class="about">
+      <img src="image/about-img1.png" alt="goal" class="about-img1">
+      <div class="about-content">
+      <h2 class="about-h2"><i class="fa-solid fa-0"></i><i class="fa-solid fa-1"></i>What is Football?</h2>
+      <p class="content-paragraph">
         Football (also called soccer) is a team sport played between two teams
         of 11 players. The goal is simple: score more goals than the other team
         by getting the ball into their net. It is played in almost every country
         and needs very little equipment, just a ball and some space.
       </p>
       <ul>
-        <li><strong>22</strong> players on the pitch</li>
-        <li><strong>90</strong> minutes per match</li>
-        <li><strong>250M+</strong> players worldwide</li>
+        <li><i class="fa-solid fa-person-running"></i><strong>22</strong> players on the pitch</li>
+        <li><i class="fa-regular fa-clock"></i><strong>90</strong> minutes per match</li>
+        <li><i class="fa-solid fa-globe"></i><strong>250M+</strong> players worldwide</li>
       </ul>
+      </div>
+      </div>
     </section>
 
     <section id="history">
-      <h2>A Short History</h2>
+      <div class="history">
+      <img src="image/timeline.png" alt="timeline" class="timeline">
+      <div class="history-content">
+      <h2 class="history-h2"><i class="fa-solid fa-0 black"><i class="fa-solid fa-2"></i></i>A Short History</h2>
       <p>
         Games of kicking a ball have existed for thousands of years in places like
         ancient China and Greece. Modern football began in England in 1863, when the
         first official rules were written down. Since then, the sport has spread to
         every continent and become a huge part of many cultures.
       </p>
+      </div>
+      </div>
+      
     </section>
 
     <section id="how-to-play">
-      <h2>How to Play</h2>
+      <div class="htp">
+      <h2><i class="fa-solid fa-0"></i><i class="fa-solid fa-3"></i>How to Play</h2>
+      <div class="htp-content">
+      <img src="image/htp.png" alt="How-to-play-football" class="htp-img">
       <ol>
-        <li>Each team has 11 players, including one goalkeeper.</li>
-        <li>The match starts with a kick-off from the center of the pitch.</li>
-        <li>Players pass, dribble, and shoot using their feet, body, and head.</li>
-        <li>Only the goalkeeper can use their hands, and only inside their own box.</li>
-        <li>A goal counts when the whole ball crosses the goal line.</li>
-        <li>The team with the most goals after 90 minutes wins.</li>
+        <li><i class="fa-solid fa-people-group"></i><p>Each team has 11 players, including one goalkeeper.</p></li>
+        <li><i class="fa-solid fa-flag"></i><p>The match starts with a kick-off from the center of the pitch.</p></li>
+        <li><i class="fa-solid fa-shoe-prints"></i><p>Players pass, dribble, and shoot using their feet, body, and head.</p></li>
+        <li><i class="fa-solid fa-hand"></i><p>Only the goalkeeper can use their hands, and only inside their own box.</p></li>
+        <li><i class="fa-solid fa-bullseye"></i><p>A goal counts when the whole ball crosses the goal line.</p></li>
+        <li><i class="fa-solid fa-trophy"></i><p>The team with the most goals after 90 minutes wins.</p></li>
       </ol>
+      </div>
+      </div>
     </section>
 
     <section id="positions">
-      <h2>Player Positions</h2>
-
-      <h3>Goalkeeper</h3>
+      <div class="position">
+      <div class="position-title">
+      <h2><i class="fa-solid fa-0 black"><i class="fa-solid fa-4"></i></i>Player Positions</h2>
+      <p>Each position has a role, work together to score a goal</p>
+      </div>
+      <div class="position-img-content">
+      <img src="image/position.png" alt="player-positions" class="position-img">
+      <div class="position-content">
+      <h3><i class="fa-solid fa-hands-holding-circle"></i>Goalkeeper</h3>
       <p>Stops shots and protects the goal.</p>
-
-      <h3>Defenders</h3>
+      <h3><i class="fa-solid fa-shield"></i>Defenders</h3>
       <p>Stop the other team from attacking.</p>
-
-      <h3>Midfielders</h3>
+      <h3><i class="fa-solid fa-street-view"></i>Midfielders</h3>
       <p>Connect defense and attack, and control the game.</p>
-
-      <h3>Forwards</h3>
+      <h3><i class="fa-solid fa-person-running black"></i>Forwards</h3>
       <p>Their main job is to score goals.</p>
+      </div>
+      </div>
+      </div>
     </section>
 
     <section id="rules">
-      <h2>Basic Rules</h2>
+      <h2><i class="fa-solid fa-0"></i><i class="fa-solid fa-5"></i>Basic Rules</h2>
+      <img src="image/rules-img.png" alt="setting the ball" class="rules-img">
       <ul>
         <li><strong>Fouls:</strong> Pushing, tripping, or holding gives the other team a free kick.</li>
         <li><strong>Handball:</strong> Touching the ball with hands or arms (except the goalkeeper) is a foul.</li>
@@ -92,87 +148,32 @@
     </section>
 
     <section id="competitions">
-      <h2>Famous Competitions</h2>
+  <h2><i class="fa-solid fa-0 black"></i><i class="fa-solid fa-6"></i>Famous Competitions</h2>
 
-      <h3>FIFA World Cup</h3>
-      <p>The biggest tournament, held every 4 years between national teams.</p>
-
-      <h3>UEFA Champions League</h3>
-      <p>The top club competition in Europe.</p>
-
-      <h3>Premier League</h3>
-      <p>England's top league, watched around the world.</p>
-    </section>
-
-    <hr>
-
-    <!-- CONTACT FORM -->
-    <section id="contact">
-
-      <h2>Contact Us</h2>
-
-      <p>Have any questions about football? Send us a message!</p>
-
-      <form id="contactForm" novalidate>
-
-        <label for="firstname">First Name:</label><br>
-        <input
-          type="text"
-          id="firstname"
-          name="firstname"
-          placeholder="Enter your first name"
-          required
-        >
-
-        <br><br>
-
-        <label for="lastname">Last Name:</label><br>
-        <input
-          type="text"
-          id="lastname"
-          name="lastname"
-          placeholder="Enter your last name"
-          required
-        >
-
-        <br><br>
-
-        <label for="email">Email:</label><br>
-        <input
-          type="email"
-          id="email"
-          name="email"
-          placeholder="Enter your email"
-          required
-        >
-
-        <br><br>
-
-        <label for="message">Contact Message:</label><br>
-        <textarea
-          id="message"
-          name="message"
-          rows="5"
-          cols="40"
-          maxlength="500"
-          placeholder="Write your message here..."
-          required
-        ></textarea>
-
-        <p id="charCount">0 / 500 characters</p>
-
-        <button type="submit">Send</button>
-
-        <!-- JavaScript feedback appears here -->
-        <p id="feedback" role="status" aria-live="polite"></p>
-
-      </form>
-
-    </section>
-
-  </main>
-
-  <hr>
+  <div class="competitions-row">
+    <div class="competition-card">
+    <img src="image/worldcup.png" alt="FIFA" class="competition-img">
+    <div class="competition-info">
+    <h3>FIFA World Cup</h3>
+    <p>The biggest tournament, held every 4 years between national teams.</p>
+    </div>
+    </div>
+    <div class="competition-card">
+    <img src="image/uefa.png" alt="UEFA" class="competition-img">
+    <div class="competition-info">
+    <h3>UEFA Champions League</h3>
+    <p>The top club competition in Europe.</p>
+    </div>
+    </div>
+    <div class="competition-card">
+    <img src="image/premier.png" alt="Premier League" class="competition-img">
+    <div class="competition-info">
+    <h3>Premier League</h3>
+    <p>England's top league, watched around the world.</p>
+    </div>
+    </div>
+  </div>
+</section>
 
   <footer>
     <p>Made for football fans.</p>

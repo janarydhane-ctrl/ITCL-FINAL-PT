@@ -1,1 +1,502 @@
+<!-- initial css i will clean this up after jscript -->
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.about, .history, .htp, .position {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.fa-solid.fa-0, .fa-solid.fa-1, .fa-solid.fa-person-running, .fa-regular.fa-clock, .fa-solid.fa-globe, .fa-solid.fa-3, .fa-solid.fa-5 {
+    padding-right: 8px;
+    color:aquamarine;
+}
+
+.fa-solid.fa-0.black, .fa-solid.fa-2, .fa-solid.fa-4, .fa-solid.fa-hands-holding-circle, .fa-solid.fa-shield,
+.fa-solid.fa-street-view, .fa-solid.fa-person-running.black, .fa-solid.fa-6 {
+    padding-right: 8px;
+    color:black
+}
+
+
+header {
+    background-color: rgb(1, 54, 30);
+    margin:0px;
+    margin-bottom: 0px;
+    padding:0px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 3px;
+}
+
+.fa-solid {
+    padding-left: 20px;
+    padding-right: 13px;
+}
+
+h1, .fa-solid {
+    padding: 2px;
+    margin-bottom: 2px;
+    margin-top: 4px;
+    margin-left: 6px;
+}
+
+.element1 {
+    object-position: right center;
+    margin-left: auto;
+    max-width: 100%;
+    height: auto;
+}
+.soccer-img {
+    width: 100%;
+    height: 340px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    vertical-align: bottom;
+}
+
+.sub-text {
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 25px;
+    color: rgb(2, 135, 2);
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: 5px;
+    background-color: rgba(244, 240, 240, 0.8);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 6px;
+    border-top: 8px solid rgb(1, 55, 1);
+    border-bottom: 8px solid rgb(1, 55, 1);
+}
+
+.nav-section {
+    background-color: rgb(0, 115, 0);
+    padding-left:35px;
+    padding-bottom: 15px;
+}
+
+.explore, .dive-game {
+    margin: 0px;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 34px;
+    font-style: italic;
+    letter-spacing: 6px;
+}
+
+.explore {
+    color:rgb(0, 255, 0);
+    font-size: 20px;
+    width: fit-content;
+    padding-top: 25px;
+    padding-bottom: 1px;
+    padding-left: 4px;
+}
+
+.dive-game {
+    color: white;
+    padding-bottom: 15px;
+    border-bottom: 2px solid;
+    width: fit-content;
+}
+
+
+.nav-div {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding-top: 35px;
+    margin-right: 5px;
+}
+
+.card-img {
+    width: 200px;
+    height: 380px;
+    margin-left: 13px;
+    object-fit: cover;
+    display: inline-block;
+    clip-path: polygon(0 15%, 100% 0, 100% 85%, 0 100%);
+    margin-bottom: 30px;
+    border: 10px solid rgb(0, 249, 220);
+    vertical-align: top;
+}
+
+.p-nav {
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    flex-shrink: 0;
+}
+
+.p-nav span {
+    color: white;
+    border: 3px solid;
+    background-color: rgba(27, 81, 97, 0.21);
+    border-radius: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 0px;
+    padding-top: 1px;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 30px;
+    position: absolute;
+    top: 40px;
+    right: 20px;
+}
+
+.card-img:hover {
+    transform: scale(1.05);
+}
+
+.p-nav:hover {
+    transform: scale(1.05);
+}
+
+.about {
+    background-color: rgb(0, 25, 12);
+    display: flex;
+    margin:0px;
+    margin-bottom: 0px;
+    padding:0px;
+    padding-top: 25px;
+    padding-bottom:40px;
+}
+
+.about-img1 {
+    width: 350px;
+    height: 350px;
+    margin-left: 50px;
+}
+
+.about-content {
+    color:aliceblue;
+    display: block;
+    margin: 15px;
+    margin-left: 50px;
+    margin-right: 80px;
+}
+
+.about-img1, .about-content {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+.about-h2 {
+    font-size: 35px;
+}
+
+.content-paragraph {
+    font-size: 19px;
+    width: 85%;
+}
+
+ul, ol {
+    display: flex;
+    text-align: center;
+}
+
+.about li {
+    border: 3px solid rgb(29, 255, 112);
+    list-style: none;
+    font-size: 16px;
+    padding:20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-left: 3%;
+    margin-top: 2%;
+    width: fit-content;
+}
+
+.history {
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 15px 0 0;
+    display: flex;
+}
+
+.history h2 {
+    font-size: 30px;
+    display: block;
+    border-bottom: 3px solid rgb(1, 225, 150);
+    width: fit-content;
+}
+
+.history-content p {
+    font-size: 19px;
+    width: 80%;
+    padding-left: 5px;
+}
+
+.timeline {
+    width: 40%;
+}
+
+.timeline, .history-content {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 30px;
+}
+
+.htp {
+    background-color: rgb(0, 25, 12);
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.htp h2 {
+    color: white;
+    border-bottom: 2px solid aquamarine;
+    padding-bottom: 15px;
+    margin-top: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 35px;
+    font-size: 34px;
+    display: block;
+    width: 80%;
+    padding-right: 5px;
+}
+
+.htp-content {
+    color: white;
+    font-size: 19px;
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.htp img {
+    width: 20%;
+    height:auto;
+    margin-right:10px;
+    object-fit: contain;
+}
+
+.htp ol {
+    margin-right: 2px;
+    padding-left: 10px;
+    gap: 20px;
+}
+
+.htp li {
+    border-right: 3px solid rgb(29, 255, 112);
+    border-left: 3px solid rgb(29, 255, 112);
+    list-style: none;
+    font-size: 16px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    gap: 5px;
+}
+
+.position-img {
+    width: 25vw;
+    height: 28vw;
+}
+
+.position {
+    margin-left: 18vw;
+    margin-right: 28vw;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.position-img-content, .position-content {
+    display: block;
+    width:fit-content;
+    gap: 80px;
+}
+
+.position-img-content {
+    display: flex;
+    margin:0px;
+    padding:30px;
+    padding-top: 25px;
+    padding-bottom:40px;
+    border: 3px solid rgb(1, 102, 68)
+}
+
+.position-content {
+    color:rgb(0, 0, 0);
+    display: block;
+    border-left: 3px solid rgb(1, 225, 150);
+    padding-left: 30px;
+    width: fit-content;
+}
+
+.position-content p {
+    padding-left: 28px;
+    font-size: 17px;
+    text-align: left;
+}
+
+.position h2 {
+    font-size: 34px;
+    margin-bottom: 4px;
+    width: fit-content;
+    border-bottom: 3px solid rgb(1, 225, 150);
+}
+
+.position h3 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.position-title p {
+    font-size: 22px;
+    margin-top: 8px;
+    padding: 8px;
+}
+
+#rules {
+    background-color: rgb(0, 25, 12);
+    padding: 60px 5%;
+}
+
+#rules h2 {
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 36px;
+    letter-spacing: 1px;
+    border-bottom: 3px solid rgb(1, 225, 150);
+    width: fit-content;
+    margin-top: 0;
+    margin-bottom: 35px;
+}
+
+.rules-img {
+    display: block;
+    width: 60%;
+    height: 220px;
+    object-fit: cover;
+    margin: 0 auto 25px auto;
+    border: 2px dotted aquamarine;
+}
+
+#rules ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: left;
+}
+
+#rules li {
+    background-color: white;
+    border: 6px solid aquamarine;
+    border-radius: 10px;
+    padding: 30px;
+    box-sizing: border-box;
+    font-size: 17px;
+    line-height: 1.6;
+    min-height: 190px;
+}
+
+#rules li strong {
+    display: block;
+    font-family: "Bebas Neue", sans-serif;
+    color: rgb(0, 110, 65);
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+#competitions {
+    background-color: white;
+    padding: 60px 5%;
+}
+
+#competitions h2 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 36px;
+    letter-spacing: 1px;
+    border-bottom: 3px solid rgb(1, 225, 150);
+    width: fit-content;
+    margin-top: 0;
+    margin-bottom: 35px;
+}
+
+.competitions-row {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.competition-card {
+    position: relative;
+    flex: 1 1 300px;
+    height: 320px;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 3px solid rgb(1, 102, 68);
+}
+
+.competition-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.competition-card:hover {
+    transform: scale(1.05);
+}
+
+.competition-info {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2), transparent);
+    color: white;
+}
+
+.competition-info h3 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 35px;
+    letter-spacing: 1px;
+    margin: 0 0 8px 0;
+    color: rgb(0, 255, 234);
+}
+
+.competition-info p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+footer {
+    background-color: rgb(0, 25, 12);
+    color: aquamarine;
+    font-weight: bold;
+    padding: 25px 5%;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    font-size: 25px;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 10px;
+}
