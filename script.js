@@ -120,7 +120,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     });
 
-    const answer10 = document.getElementById("answer10");
+const answer10 = document.getElementById("answer10");
 const answer11 = document.getElementById("answer11");
 const answer12 = document.getElementById("answer12");
 
